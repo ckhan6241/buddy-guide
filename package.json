@@ -1,0 +1,51 @@
+{
+  "name": "buddy-guide",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "NODE_ENV=development webpack-dev-server --progress --color",
+    "storybook": "NODE_ENV=test start-storybook -p 9009 -s public",
+    "build-storybook": "build-storybook -s public"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@kadira/storybook": "2.21.0",
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.24.1",
+    "babel-loader": "^6.4.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "css-loader": "^0.28.0",
+    "html-webpack-plugin": "^2.28.0",
+    "react-hot-loader": "^3.0.0-beta.6",
+    "style-loader": "^0.16.1",
+    "webpack": "2.2.1",
+    "webpack-dev-server": "^2.4.0"
+  },
+  "dependencies": {
+    "babel-polyfill": "^6.23.0",
+    "font-awesome": "^4.7.0",
+    "font-awesome-webpack": "0.0.5-beta.2",
+    "glamor": "2.20.12",
+    "lodash": "^4.17.4",
+    "moment": "^2.18.1",
+    "rc-slider": "^7.0.1",
+    "react": "^15.5.4",
+    "react-datepicker": "^0.44.0",
+    "react-dom": "^15.5.4",
+    "react-google-maps-loader": "^2.0.2",
+    "react-google-places-suggest": "^2.1.1",
+    "react-measure": "^1.4.7",
+    "react-redux": "^5.0.4",
+    "react-router": "^3.0.0",
+    "react-star-rating-component": "^1.2.4",
+    "react-tabs": "^0.8.3",
+    "recompose": "^0.23.1",
+    "redux": "^3.6.0",
+    "reselect": "^3.0.0"
+  }
+}
