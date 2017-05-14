@@ -1,6 +1,12 @@
 # buddy-guide
 
 ## First time setup
+### Setting up dependencies
+```
+ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+brew install node
+```
+### Clone and setup
 ```
 git clone https://github.com/ckhan6241/buddy-guide.git
 cd buddy-guide 
