@@ -153,8 +153,8 @@ class GuideDetailComponent extends Component {
     const styles = getStyle(theme)
     return (
       <div styles={{overflow:'scroll', position:'relative', height: height}} >
-    <View justifyContent='space-around' overflow='scroll' position='relative' height={height} onClick={ () => {this.handleClick('#/home-page/'+prev)} }>
-      <Flex {...styles.arrows} height={ height } flexDirection='column' alignItems='center' justifyContent='center' position='fixed' top='34px' left='0px' width='15%'>
+    <View justifyContent='space-around' overflow='scroll' position='relative' height={height}>
+      <Flex {...styles.arrows} onClick={ () => {this.handleClick('#/home-page/'+prev)} } height={ height } flexDirection='column' alignItems='center' justifyContent='center' position='fixed' top='34px' left='0px' width='15%'>
         <i className="fa fa-arrow-circle-left fa-5x" aria-hidden="true"></i>
       </Flex>
       <Flex width= { '70%' } {...styles.container}>
