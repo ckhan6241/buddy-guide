@@ -16,12 +16,12 @@ export default () => {
 
   const getNextId = createSelector(
     getId, getNumberOfData,
-    (id, maxId) => maxId == id + 1 ? 0 : id + 1
+    (id, maxId) => maxId == parseInt(id) + 1 ? 0 : parseInt(id) + 1
   )
 
   const getPreviousId = createSelector(
     getId, getNumberOfData,
-    (id, maxId) => 0 == id ? maxId - 1 : id - 1
+    (id, maxId) => 0 == parseInt(id) ? maxId - 1 : parseInt(id) - 1
   )
 
   return (
