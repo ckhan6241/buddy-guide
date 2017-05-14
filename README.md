@@ -18,6 +18,7 @@ Open browser and go to http://localhost:3000/#/home-page
 ## Second time onwards
 go to buddy-guide directory using `cd`
 ```
+git pull
 npm install
 npm start
 ```
