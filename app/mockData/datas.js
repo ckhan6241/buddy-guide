@@ -30,6 +30,9 @@ Format:
   ]
 }
 */
+import picture1 from './images/Picture1.jpg'
+import picture2 from './images/Picture2.png'
+import picture3 from './images/Picture3.png'
 
 export const datas = [
   {
@@ -56,7 +59,7 @@ export const datas = [
         from: 'Amy Julie',
         to: 'Nurry',
         footprints: ['Orchard Road', 'Bugis Street', 'Queenstown'],
-        imageUrl: "https://x1.xingassets.com/assets/frontend_minified/img/users/nobody_m.original.jpg",
+        imageUrl: picture1,
         text: 'Hey! Thanks for the great evening! Much fun pretending to be princesses XD Beef ball with cranberry sauce is heaven!'
       },
       {
@@ -65,7 +68,7 @@ export const datas = [
         from: 'Nurry',
         to: 'Bing Ying',
         footprints: ['Xuexiang Snowtown'],
-        imageUrl: "https://x1.xingassets.com/assets/frontend_minified/img/users/nobody_m.original.jpg",
+        imageUrl: picture2,
         text: "Craziest day of my life. Still in a dazed. Didn't know people actually stay in cottages in winter wonderlands and share the streets with huskies and ponies. Well, if you ever come to Singapore, I'll make sure we have our hottest sun to welcome you!"
       },
       {
@@ -74,7 +77,7 @@ export const datas = [
         from: 'Samantha',
         to: 'Nurry',
         footprints: ['Orchard', 'Chinatown', 'Bugis', 'Kallang'],
-        imageUrl: "https://x1.xingassets.com/assets/frontend_minified/img/users/nobody_m.original.jpg",
+        imageUrl: picture3,
         text: "I decided this is our best photo of all that we have taken! If you ask me, I would say the chicken rice is the best!! Still couldn't get why people are all crazy about durians... The taste is just hideous... Can't wait to explore more food together April next year. Meanwhile, take care!"
       }
     ]

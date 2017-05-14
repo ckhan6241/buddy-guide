@@ -10,12 +10,12 @@ const theme = {
     tiny: 8,
     small: 10,
     medium: 12,
-    large: 18,
-    xlarge: 25,
-    huge: 40,
+    large: 14,
+    xlarge: 18,
+    huge: 25,
     display: 40
   },
-  fontFamily: 'sans-serif'
+  fontFamily: 'Calibri'
 }
 
 
